@@ -1,0 +1,123 @@
+.OrderCategorias{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     padding: 20px;
+    gap: 20px;
+}
+.OrderCategorias h2{
+    font-size: 35px;
+     color: #EA580C;
+}
+.Categorias_opt{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ gap: 15px;}
+.CategoriaText {
+    width: auto;
+    height:auto;
+    display: flex;
+    
+    justify-content: center;
+     gap: 15px;
+    flex-direction: column;
+    padding: 5px;
+ }
+.CategoriaText h4{
+    font-size: 20px;
+    color: #065F46;
+    text-align: center;
+}
+.OrderCategorias p{
+    font-size: 16px;
+    color:#4B5563;
+    font-weight: 500;
+    
+}
+.CategoriaText .Categorias_opt button{
+    min-width:100px;
+    height: auto;
+     max-width: auto;
+    border-radius: 17px;
+    border:1px solid #22C55E;
+    font-size: 13px;
+    font-weight: 510;
+    color: #047857;
+    background-color: white;
+    cursor: pointer;
+ padding: 10px;   
+}
+.Categorias_opt button:hover {
+        cursor: pointer;
+
+    background-color: #F0FDF4; /* green-50 */
+  color: #065F46; /* green-800 */
+}   
+.Categorias_opt button::selection{
+    color: rebeccapurple;
+}
+
+@media screen and (width<=475px){
+    .OrderCategorias{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     padding: 20px;
+    gap: 20px;
+  
+ 
+}
+.CategoriaText .Categorias_opt button{
+    min-width:100px;
+    height: auto;
+     max-width: auto;
+    border-radius: 17px;
+    border:1px solid #22C55E;
+    font-size: 13px;
+    font-weight: 510;
+    color: #047857;
+    background-color: white;
+    cursor: pointer;
+ padding: 10px;  
+ 
+}
+ 
+.Categorias_opt{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ gap: 15px;
+ display: grid;
+ grid-template-columns: repeat(3,auto); 
+  grid-template-rows: repeat(2,auto); 
+
+}
+.OrderCategorias h2{
+    font-size: 25px;
+     color: #EA580C;
+}
+.OrderCategorias p{
+    font-size: 14px;
+    color:#4B5563;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.CategoriaText h4{
+    font-size: 18px;
+    color: #065F46;
+    text-align: center;
+}
+}

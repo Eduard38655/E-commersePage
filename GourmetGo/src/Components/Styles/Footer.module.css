@@ -1,0 +1,51 @@
+.Footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1f2937;
+     color: thistle;
+     padding: 25px;
+     gap: 20px;
+}
+.Footer p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.Footer div{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.Footer div button {
+    width: 60px;
+    height: 40px;
+    font-size: 1px;
+    border: none;
+    background: none;
+    
+}
+.Footer div button a{
+    list-style: none;
+ color: gray;
+ font-size: 2px;
+}
+.Footer div button a i{
+    font-size: 30px;
+}
+@media screen and (width<=475px) {
+   .Footer p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.Footer div button a i{
+    font-size: 25px;
+}
+}

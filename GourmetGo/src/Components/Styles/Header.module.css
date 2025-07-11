@@ -1,0 +1,246 @@
+.Header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+ 
+}
+.HeaderComponents{
+    width:auto;
+    height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;    
+gap: 30px;
+ 
+}
+.Header h1{
+    font-size: 30px;
+    font-weight: 700;
+     color: #EA580C;
+     cursor: pointer;
+ 
+}
+.Header h1 span{
+    color: #16A34A;
+  
+}
+
+.DivProfile{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+      
+}
+.DivProfile i{
+    font-size: 23px;
+}
+.DivProfile p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.ShopCart{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.ShopCart button{
+    border: none;
+    background: none;
+}
+.ShopCart i {
+    font-size: 23px;
+ position:relative;
+     cursor: pointer;
+ 
+
+}
+
+.ShopCart div {
+    width: 18px;
+    height:18px;
+  margin-bottom: 39px;
+  margin-left: -10px;
+  background-color: red;
+  color: wheat;
+ text-align: center;
+  border-radius: 100%;
+  }
+.ShopCart div span{
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+ 
+.DivSearch{
+    width: 700px;
+    height: 35px;
+    border: 1px solid #D1D5DB;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+.DivSearch:focus{
+    border-color: #F97316;
+}
+ 
+.DivSearch input{
+    
+    width: 98%;
+    height:33px;
+    border: none;
+    padding: 20px;
+    background: transparent;
+    color: #6B7280;
+    font-size: 18px;
+}
+.DivSearch input::placeholder{
+    font-size: 15px;
+}
+.DivSearch input:focus{
+    outline: none;
+}
+.DivSearch i{
+    font-size: 20px;
+}
+
+
+
+@media screen and (width<=475px) {
+    .Header{
+    width: 475px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+ 
+}
+.DivSearch{
+    width: 150px;
+    height: 35px;
+    border: 1px solid #D1D5DB;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+    
+
+}
+.HeaderComponents{
+    width:auto;
+    height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;    
+gap: 20px;
+ 
+ 
+}
+.ShopCart{
+    background-color: blue;
+}
+.ShopCart div {
+    width: 20px;
+    height:20px;
+  margin-bottom: 40px;
+  margin-left: -10px;
+  background-color: red;
+  color: wheat;
+ text-align: center;
+  border-radius: 100%;
+  }
+  .ShopCart div span{
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+  .Header h1{
+    font-size: 20px;
+    font-weight: 700;
+     color: #EA580C;
+     cursor: pointer;
+ 
+}
+.DivSearch i{
+    font-size: 15px;
+}
+.DivSearch input{
+    
+    width: 98%;
+    height:33px;
+    border: none;
+    padding: 20px;
+    background: transparent;
+    color: #6B7280;
+    font-size: 15px;
+}
+.DivSearch input::placeholder{
+    font-size: 14px;
+}
+.DivSearch{
+    width: 250px;
+    height: 35px;
+    border: 1px solid #D1D5DB;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 8px;
+    
+
+}
+.ShopCart{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.ShopCart button{
+    border: none;
+    background: none;
+}
+.ShopCart i {
+    font-size: 19px;
+ position:relative;
+     cursor: pointer;
+ 
+
+}
+ 
+}

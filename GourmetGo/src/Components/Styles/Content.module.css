@@ -1,0 +1,171 @@
+    .CardsContainer{
+        width: 100%;
+        height: auto;
+         display: flex;
+      
+  
+    }
+    .Carts_Container{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(4,310px);
+         grid-template-rows: repeat(4,auto);
+        padding: 22px;
+        gap: 20px;
+
+    }
+    .DivCards{
+        width: 310px;
+        height: 400px;
+background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+flex-direction: column;
+justify-content: space-between;
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+border-radius: 0.75rem; 
+    }
+      .DivCards:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* hover:shadow-2xl */
+}
+    .DivCards img{
+        width: 100%;
+        height: 170px;
+        border-radius: 0.75rem 0.75rem 0px 0px; 
+
+    }
+    .TextDetails{
+        width:100% ;
+        height: 250px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .TextDetails h3{
+        color: #1F2937; 
+        font-size: 20px;
+        font-weight: 650;
+    }
+    .TextDetails p{
+        width:fit-content;
+        height:fit-content;
+        font-size: 14px;
+        font-weight: 400;
+        color: #4B5563;
+    }
+    .TextDetails h4{
+        color: #16A34A;
+        font-size: 18px;
+        font-weight: 650px;
+    }
+     .TextDetails .ButtonAdd{
+        width: 100%;
+        height: 45px;
+        color: white;
+        border-radius: 0.5rem;
+ background-color: #F97316;   
+       border: 1px solid #D8B4FE;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+     }
+     .TextDetails .ButtonAdd:hover{
+         background-color: #EA580C;
+          cursor: pointer;
+     }
+
+     .DivCount{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+       background-color: #EA580C;
+        justify-content: space-around;
+
+border-radius: 0.5rem;
+     }
+
+     
+
+       .DivCount button{
+        width:50px;
+        height: 30px;
+        font-size: 25px;
+        border-radius: 100%;
+       
+        border: none;
+        background: none;
+        color: white;
+        
+       }
+
+       .DivCount button:hover{
+         background-color: #EA580C;
+          cursor: pointer;
+     }
+       .DivCount span{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+       }
+       .NotFound{
+        width: 1300px;
+        height: 800px;
+        display: flex;
+        
+        justify-content: center;
+         
+        gap: 10px;
+       }
+       .NotFound i{
+        font-size: 30px;
+       }
+
+       @media screen and ( width<=475px) {
+          .Carts_Container{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1,85%);
+padding: 25px;
+       justify-content: center;
+        
+       
+
+    }
+      .CardsContainer{
+        width:100%;
+        height: auto;
+         display: flex;
+     align-items: center;
+     justify-content: center;
+  
+  
+    }
+
+     .DivCards{
+        width: 100%;
+        height: 400px;
+background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+flex-direction: column;
+justify-content: space-between;
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+border-radius: 0.75rem; 
+    }
+
+     .NotFound{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        
+        justify-content: center;
+         
+        gap: 10px;
+       }
+       }
