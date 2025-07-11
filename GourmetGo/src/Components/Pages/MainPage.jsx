@@ -9,6 +9,7 @@ import Header from "../SubComponents/Header.jsx"
 import Login from "../SubComponents/Login.jsx"
 import LogOut from "../SubComponents/Logout.jsx"
 import ShowCart from "../SubComponents/ShowItems.jsx"
+
 function MainPage(params) {
    const{ DataBase,SetDataBase}=useContext(DataBaseContext)
    const{DataReset,SetDataReset}=useContext(DataBaseContext)
