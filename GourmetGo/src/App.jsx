@@ -7,7 +7,7 @@ function App() {
   return (
     <DataBaseProvider> 
 
-   <BrowserRouter basename="/GourmetGo">
+   <BrowserRouter basename="/E-commersePage">
    <Routes>
 
     
